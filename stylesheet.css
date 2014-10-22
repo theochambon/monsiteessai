@@ -1,18 +1,24 @@
-body {background-color:black;}
+body {background-image: url(fond1.jpeg);}
 
-title{font-color: white;}
+h1{text-align: center;}
 
-h1{color:white;
-	text-align: center;}
+nav {margin-left: 200px;}
 
-nav {margin-left: 146px;
+.yep{
+  font-family: blue;
+  color: blue;
 }
 
-a{text-decoration: none;
-color: yellow; }
+a{text-decoration: none; }
 
-a:hover {opacity: 0,8;
-color: blue;}
+
+a:hover {opacity: 0,8;}
+
+#rs li {list-style-type: none;
+text-decoration: none;
+float: left;
+margin-left: 20px;
+}
 
 .titre {display:block;
 	margin : 5 5 5 100;
@@ -20,7 +26,6 @@ color: blue;}
 	list-style: none;
     font-family: verdana;
     font-size: 23px;
-background-color:white;
 }
 .titre a { color: black;}
 
@@ -31,69 +36,68 @@ background-color:white;
 	list-style: none;
     font-family: verdana;
     font-size: 23px;
-background-color:white;
 }
 
 .clear {clear: both;}
 
     img {display:block;
-    	height:450x;
-    	width: 300;
-    	width:50%;
+    	height:200px;
+    	width: 50px;
+    	width:25%;
     	float:right;
     margin-left:auto;
-    margin-right:50px;
-border-radius: 8%
+    margin-right:200px;
+    margin-top: 30px;
+border-radius: 2%;
  }
 
 
     aside {width: 30%;
     	float: left;
-    	color: white;
+    	color: #2E353D;
     	margin-left:80px;
     	margin-bottom: 50px;
     	margin-top: 50px;
     	font-family: Verdana;
     	font-size: 18px;
+      border : 1px solid black ;
+      padding-top:5px;
+      padding-bottom: 5px;
+      padding-left: 10px;
     }
 
     section{clear: both;}
 
-   #formation {background-color: white;
-   	font-color:black;
+   #formation {
+   	font-color:#2E353D;
 margin-top: 10px;}
 
    #formation .h2 {
-   	font-color:black; 
+   	font-color:#2E353D; 
 }
 
 
-   #exp {background-color: black;
-   	color:white;
-   }
 
-   #exp .h2 {
- color:white;
+@media (max-width:320px) {  /*small mobile*/
+  h1 {
+    font-size : 15px;
+  }
 }
-
- #divers {background-color: white;
-   	font-color:black;
- }
-
-   #divers .h2 {
-   	font-color:black;;
-   margin-top: 10px}
-
-   #centres {background-color: black;
-   	color:white;}
-
-   #centres .h2 {
-   color:white;
-   margin-top: 10px}
-
-   .white {background-color: white;color: white;}
-   .black {background-color: black;color: black;}
-
+@media (min-width:321px) and (max-width:959px) {  /*tablet*/
+  h1 {
+    font-size : 20px; 
+  }
+}
+@media (min-width:960px) and (max-width:1599px) {  /*desktop*/
+  h1 {
+    font-size : 30px;
+  }
+}
+@media (min-width:1600px) {  /*desktop and tv*/
+  h1 {
+    font-size : 50px;
+  }
+}
 
 
 

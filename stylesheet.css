@@ -1,12 +1,20 @@
-body {background-image: url(fond1.jpeg);}
+body {background-color: white;
+}
 
-h1{text-align: center;}
+h1{text-align: center;
+margin-right: 150px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
 
 nav {margin-left: 200px;}
 
 .yep{
-  font-family: blue;
-  color: blue;
+  font-family: Lucidatypewriter, MONOSPACE;
+  color: #76B1FF;
+}
+
+.exp {
+  background-color: #C2DCFF;
 }
 
 a{text-decoration: none; }
@@ -18,63 +26,86 @@ a:hover {opacity: 0,8;}
 text-decoration: none;
 float: left;
 margin-left: 20px;
+padding-top: 45px;
 }
 
 .titre {display:block;
-	margin : 5 5 5 100;
-	float: left;
-	list-style: none;
+margin : 5 5 5 100;
+float: left;
+list-style: none;
     font-family: verdana;
     font-size: 23px;
 }
 .titre a { color: black;}
 
 .titre li {display:block;
-	padding: 0 0,5em;
-	margin-right: 40px;
-	float: left;
-	list-style: none;
+padding: 0 0,5em;
+margin-right: 40px;
+float: left;
+list-style: none;
     font-family: verdana;
     font-size: 23px;
 }
 
-.clear {clear: both;}
-
-    img {display:block;
-    	height:200px;
-    	width: 50px;
-    	width:25%;
-    	float:right;
+#ohoh img {
+    height:200px;
+    width:25%;
     margin-left:auto;
     margin-right:200px;
     margin-top: 30px;
 border-radius: 2%;
  }
 
+ #coucou img {
+  width:100px;
+  margin-left: 170px;
+ }
 
-    aside {width: 30%;
-    	float: left;
-    	color: #2E353D;
-    	margin-left:80px;
-    	margin-bottom: 50px;
-    	margin-top: 50px;
-    	font-family: Verdana;
-    	font-size: 18px;
-      border : 1px solid black ;
+  #dingue img {
+  width:100px;
+  margin-left: 170px;
+ }
+
+ .empl {
+  background-color: #76B1FF;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 5%;
+ }
+
+ h3 {
+  color: white;
+  font-family: Lucidatypewriter, MONOSPACE;
+  text-align: center;
+ }
+
+
+#blabla {
+    color: #2E353D;
+    margin-top: 90px;
+    font-family: Verdana;
+    font-size: 18px;
+      border : 4px groove #76B1FF ;
       padding-top:5px;
       padding-bottom: 5px;
       padding-left: 10px;
     }
 
-    section{clear: both;}
-
    #formation {
-   	font-color:#2E353D;
-margin-top: 10px;}
+    font-color:#2E353D;
+    margin-top: 10px;
+    background: #C2DCFF;}
 
    #formation .h2 {
-   	font-color:#2E353D; 
+    font-color:#2E353D; 
 }
+
+  #divers {
+    background-color: #5E8DCC;
+  }
 
 
 
@@ -98,6 +129,3 @@ margin-top: 10px;}
     font-size : 50px;
   }
 }
-
-
-
